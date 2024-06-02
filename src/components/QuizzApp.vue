@@ -69,8 +69,8 @@ const quizzes = reactive([
   {
     id: 4,
     question: '5+2 = ?',
-    answers: ['4', '2', '3', '5'],
-    correctAnswer: '4',
+    answers: ['4', '2', '7', '5'],
+    correctAnswer: '7',
   },
   {
     id: 5,

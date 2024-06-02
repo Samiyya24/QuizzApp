@@ -1,14 +1,11 @@
 <script setup>
-import QuizzApp from './components/QuizzApp.vue';
+import { RouterView } from "vue-router";
 
+// import QuizzApp from './components/QuizzApp.vue';
 </script>
 
 <template>
-  <div>
-
-    <QuizzApp />
-
-
+  <div class="container mx-auto">
+    <RouterView />
   </div>
 </template>
-

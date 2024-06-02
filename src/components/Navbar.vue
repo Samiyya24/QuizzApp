@@ -1,30 +1,16 @@
-<script setup>
-
-const props = defineProps({
-  title: {
-    type: String,
-    default: 'Xayr'
-  }
-})
-
-console.log(props.title)
-
-const emit = defineEmits(['test', 'boshqa', 'ok'])
-
-const handleClick = () => {
-  emit('test', 'boladan otaga salom')
-}
-</script>
+<script setup></script>
 <template>
   <div>
-    <h1>121</h1>
-    <h1>{{ title }}</h1>
-
-    <button @click="handleClick">button</button>
-
+    <div class="shadow-md">
+      <div class="container">
+        <div class="flex gap-x-5">
+          <router-link to="/">Home</router-link>
+          <router-link to="/about">About</router-link>
+          <router-link to="/products">Products</router-link>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
-
-
 
 <style lang="scss" scoped></style>
